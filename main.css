@@ -1,0 +1,149 @@
+html,
+body {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+p,
+a,
+li,
+.CTA-button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.CTA-button {
+    font-weight: 600;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrapper {
+    background-color: white;
+    width: 100%;
+    height: 67px;
+    position: fixed;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: yellowgreen;
+    left: 0;
+    margin: 25px;
+}
+
+.hamburger {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    margin: 25px 0px;
+}
+
+.top-section {
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg")center no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+span {
+    text-align: center;
+    /*display: block;*/
+}
+
+span.small {
+    display: block;
+}
+
+span.main {
+    display: block;
+    font-size: 37px;
+}
+
+span.sub {
+    display: block;
+}
+
+em {
+    color: orange;
+}
+
+i {
+    color: yellowgreen;
+}
+
+span.bottom {
+    display: block;
+    text-align: center;
+}
+
+.brick-one {
+    width: 100%;
+    height: 400px;
+    background: lightgrey;
+}
+
+.CTA-container {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+}
+
+.CTA-button {
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    background: yellowgreen;
+    color: white;
+}
+
+.p-one {
+    font-size: 25px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px 0;
+    color: slategrey;
+    line-height: 1.5;
+}
+
+.sub-one {
+    position: relative;
+    width: 100%;
+    height: 150px;
+
+}
+.p-two {
+    color: darkslategray;
+}
+.bottom-main {
+    color: yellowgreen;
+    
+}
+
+@media (min-width: 700px) {}
+
+@media (min-width: 900px) {
+    .nav-wrapper {
+        display: none;
+    }
+}
